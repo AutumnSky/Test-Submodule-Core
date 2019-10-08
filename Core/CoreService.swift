@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Core {
+public class Core {
     public static func helloWorld() -> String {
         return "Hello Core"
     }
