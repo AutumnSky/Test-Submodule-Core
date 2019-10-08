@@ -1,15 +1,15 @@
 //
-//  CoreTests.swift
-//  CoreTests
+//  SubmoduleTestCoreTests.swift
+//  SubmoduleTestCoreTests
 //
 //  Created by MinJeong Kim on 08/10/2019.
 //  Copyright © 2019 MinJeong Kim. All rights reserved.
 //
 
 import XCTest
-@testable import Core
+@testable import SubmoduleTestCore
 
-class CoreTests: XCTestCase {
+class SubmoduleTestCoreTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,7 +22,7 @@ class CoreTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssertEqual(Core.helloWorld(), "Hello Core")
+        XCTAssertEqual(SubmoduleTestCore.helloWorld(), "hello SubmoduleTestCore")
     }
 
     func testPerformanceExample() {
