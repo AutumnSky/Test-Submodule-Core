@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint Core.podspec' to ensure this is a
+#  Be sure to run `pod spec lint SubmoduleTestCore.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SubmoduleTestCore"
-  spec.version      = "0.1"
-  spec.summary      = "SubmoduleTestCore Framework"
+  spec.version      = "0.2"
+  spec.summary      = "SubmoduleTestCore"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,7 +39,6 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  #spec.license      = "MIT"
   spec.license = { :type => 'MIT', :text => <<-LICENSE
       MIT LICENSE
     LICENSE
@@ -97,8 +96,8 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files = "SubmoduleTestCore"
   #spec.exclude_files = "Classes/Exclude"
+  spec.source_files = "SubmoduleTestCore"
 
   # spec.public_header_files = "Classes/**/*.h"
 
