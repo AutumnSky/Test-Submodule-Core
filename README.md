@@ -1,2 +1,29 @@
-# Test-Submodule-Core
->> https://cocoapods.org/pods/SubmoduleTestCore
+# SubmoduleTestCore
+
+[![CI Status](https://img.shields.io/travis/AutumnSky/SubmoduleTestCore.svg?style=flat)](https://travis-ci.org/AutumnSky/SubmoduleTestCore)
+[![Version](https://img.shields.io/cocoapods/v/SubmoduleTestCore.svg?style=flat)](https://cocoapods.org/pods/SubmoduleTestCore)
+[![License](https://img.shields.io/cocoapods/l/SubmoduleTestCore.svg?style=flat)](https://cocoapods.org/pods/SubmoduleTestCore)
+[![Platform](https://img.shields.io/cocoapods/p/SubmoduleTestCore.svg?style=flat)](https://cocoapods.org/pods/SubmoduleTestCore)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+SubmoduleTestCore is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'SubmoduleTestCore'
+```
+
+## Author
+
+AutumnSky, MinJeong.Kim@deem.com
+
+## License
+
+SubmoduleTestCore is available under the MIT license. See the LICENSE file for more info.

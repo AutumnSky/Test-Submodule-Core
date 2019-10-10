@@ -1,0 +1,29 @@
+{
+  "name": "SubmoduleTestCore",
+  "version": "0.3",
+  "summary": "SubmoduleTestCore",
+  "description": "SubmoduleTestCore for testing Submodule",
+  "homepage": "https://github.com/AutumnSky/Test-Submodule-Core",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AutumnSky": "MinJeong.Kim@deem.com"
+  },
+  "source": {
+    "git": "https://github.com/AutumnSky/SubmoduleTestCore.git",
+    "tag": "0.3"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "SubmoduleTestCore/Classes/**/*",
+  "resource_bundles": {
+    "SubmoduleTestCore": [
+      "SubmoduleTestCore/Assets/*.png"
+    ]
+  },
+  "swift_version": "5.0"
+}
